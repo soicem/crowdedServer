@@ -39,8 +39,6 @@ jobs:
           path: |
             . 
             !venv/
-        run: |
-          python crowded.py
 
   deploy:
     runs-on: ubuntu-latest
